@@ -21,5 +21,9 @@ public class User {
     private String firstName;
     private String lastName;
     private String email;
-    private Long departmentId;
+    private String departmentId;
+
+    public String getDepartmentId() {
+        return this.departmentId;
+    }
 }
